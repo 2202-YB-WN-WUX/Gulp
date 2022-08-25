@@ -1,0 +1,25 @@
+{
+  "name": "pixabay-api",
+  "version": "1.0.0",
+  "description": "first gulp",
+  "main": "index.html",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2202-YB-WN-WUX/pixabay-api.git"
+  },
+  "author": "Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2202-YB-WN-WUX/pixabay-api/issues"
+  },
+  "homepage": "https://github.com/2202-YB-WN-WUX/pixabay-api#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.13.5",
+    "jshint-stylish": "^2.2.1"
+  }
+}
