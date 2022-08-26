@@ -2,7 +2,6 @@
 const apiKey = "23357829-9b7269d284a8f7fd567a2b936";
 const endpointURL = "https://pixabay.com/api/?key=";
 // const parameters = "&q=cute+dog";
-
 // declare our elements
 const result = document.getElementById("result");
 const searchInput = document.getElementById("search-terms");
