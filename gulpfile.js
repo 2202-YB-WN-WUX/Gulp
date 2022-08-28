@@ -20,7 +20,10 @@ gulp.task('jshint', () => {
 const sassLint = require('gulp-sass-lint');
 
 gulp.task('sass-lint', () => {
-    return gulp.src('css/main.scss')
+    // plugin the css folder and then leave two trailing asterixs
+    // two astrixs are known as wildcards
+    // two asterixes indicates a directory
+    return gulp.src('css/**/*.scss')
         // run sass lint
         .pipe(sassLint())
         // tell sass lint to format your sass
@@ -36,5 +39,5 @@ const { watch } = require('gulp');
 // set up watch task
 gulp.task('watch', () => {
     gulp.watch('js/*.js', gulp.series('jshint')),
-        gulp.watch('css/*.scss', gulp.series('sass-lint'));
+        gulp.watch('css/**/*.scss', gulp.series('sass-lint'));
 }) 

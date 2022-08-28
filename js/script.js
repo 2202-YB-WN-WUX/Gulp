@@ -39,18 +39,8 @@ let showImages = (images) => {
     images.forEach(renderImage);
 }
 
-// $.ajax({
-//     type: "GET",
-//     url: endpointURL + apiKey + parameters,
-//     success: (data) => {
-//         console.log(data.hits);
-//         showImages(data.hits);
-//     },
-//     error: (error) => {
-//         console.log("there's a problem");
-//         console.log(error);
-//     }
-// });
+
+
 
 goBtn.onclick = () => {
     searchString = searchInput.value;
@@ -68,13 +58,4 @@ goBtn.onclick = () => {
         }
     });
 }
-
-// Activity:
-
-// - Create a dropdown which lets us sort via popularity/latest
-
-// - Create a dropdown which lets us choose the image_type
-
-// e.g."all", "photo", "illustration", "vector"
-
-// Color filter e.g. greyscale
+========
